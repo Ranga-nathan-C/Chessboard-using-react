@@ -1,0 +1,27 @@
+.class {
+  width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid black;
+  margin: 30px;
+  margin-bottom: 0px;
+}
+
+.white {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+}
+
+.black {
+  height: 100px;
+  width: 100px;
+  background-color: #000;
+}
+.center{
+  margin: 30px;
+  font-size: xx-large;
+  text-align: center;
+  
+}
